@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chuckydarn</title>
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav id="main">
+        <div id="search">
+            <form method="get" action="<?php bloginfo('url'); ?>/">
+                <input type="text" value="<?php the_search_query(); ?>" name="s" class="s" placeholder="Type your search here and press enter..." />
+            </form>
+        </div>
+        <div id="pages">
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Say Hello</a></li>
+                <li><a href="#">Archive</a></li>
+            </ul>
+            <a id="btn-search" href="javascript:;">Search</a>
+        </div>
+    </nav>
+    <header>
+        <a href="#"><img src="images/cd_logo.png" alt="Chuckydarn"/></a>
+        <nav id="categories">
+            <ul>
+                <li><a href="#">Thoughts</a></li>
+                <li><a href="#">Stories</a></li>
+                <li><a href="#">Crochet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <div class="post post-lrg post-pink">
+            <a class="post-tag" href="#">X</a>
+            <div class="post-meta">
+                <h3><a href="#">Post with a featured image</a></h3>
+                <hr class="hr-sml hr-light"/>
+                <ul>
+                    <li>May 16<sup>th</sup></li>
+                    <li><a href="#">Crochet</a></li>
+                </ul>
+            </div>
+            <div class="post-image">
+                <img src="images/featured_placeholder.jpg" alt=""/>
+            </div>
+        </div>
+        <hr class="hr-large hr-light"/>
+        <h2>Other Recent Musings</h2>
+        <hr class="hr-large hr-light"/>
+        <div class="post post-sml post-blue">
+            <div class="post-image">
+            </div>
+            <div class="post-meta">
+                <h3><a href="#">Post with a featured image</a></h3>
+                <hr class="hr-sml hr-light"/>
+                <ul>
+                    <li>May 16<sup>th</sup></li>
+                    <li><a href="#">Crochet</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="post post-sml post-rose">
+            <div class="post-image">
+            </div>
+            <div class="post-meta">
+                <h3><a href="#">Post with a featured image</a></h3>
+                <hr class="hr-sml hr-light"/>
+                <ul>
+                    <li>May 16<sup>th</sup></li>
+                    <li><a href="#">Crochet</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="post post-sml post-pink">
+            <div class="post-image">
+            </div>
+            <div class="post-meta">
+                <h3><a href="#">Post with a featured image</a></h3>
+                <hr class="hr-sml hr-light"/>
+                <ul>
+                    <li>May 16<sup>th</sup></li>
+                    <li><a href="#">Crochet</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="post post-sml post-blue">
+            <div class="post-image">
+            </div>
+            <div class="post-meta">
+                <h3><a href="#">Post with a featured image</a></h3>
+                <hr class="hr-sml hr-light"/>
+                <ul>
+                    <li>May 16<sup>th</sup></li>
+                    <li><a href="#">Crochet</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
